@@ -10,14 +10,19 @@
     src="https://pyscript.net/releases/2026.7.3/core.js"></script>
 </head>
 <body>
-    <select id="soft_drink" class="soft_drink">
-        <option value="" data-price="0"> Pick a Asian Region</option>
-        <option value="central"> Central Asia</option>
-        <option value="east"> East Asia</option>
-        <option value="south"> South Asia</option>
-        <option value="south-east"> Southeast Asia</option>
-        <option value="west"> West Asia</option>
-    </select>
-    
+
+    <!--Input box for the first name-->
+    <input type="text" id="text1" placeholder="Enter your first name">
+    <br><br>
+
+    <!--Input box for the last name-->
+    <input type="text" id="text2" placeholder="Enter your last name">
+    <br><br>
+
+    <button type="button" py-click="solving">Solve</button>
+    <br>
+    <div id="output"></div>
+
+    <script type="py" src="main.py"></script>
 </body>
 </html>
