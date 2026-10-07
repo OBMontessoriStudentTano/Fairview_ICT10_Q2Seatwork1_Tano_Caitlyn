@@ -2,7 +2,7 @@ from pyscript import display, document
 
 names = ["Caitlyn Tano", "Enzo Navarro", "Camille Dela Cruz", "Vincent Villanueva", "Scarlett Santos", "Theo Marasigan", "Valerie Bautista", "Damian Malabanan", "Vivienne Gatdula", "Isaiah Manansala", "Anna Dimaculangan"]
 
-def solving(event):
+def enter(event):
     first_name = document.getElementById("text1").value.strip()
     last_name = document.getElementById("text2").value.strip()
 
